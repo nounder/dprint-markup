@@ -1,0 +1,9 @@
+# Git files
+.git
+.gitattributes
+.github
+
+# Development files
+node_modules/
+*.log
+.DS_Store
