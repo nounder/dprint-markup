@@ -1,0 +1,9 @@
+{
+ "name": "dprint-markup",
+ "version": "0.24.0",
+ "exports": {
+   ".": "./index.js",
+   "./plugin.wasm": "./plugin.wasm"
+  },
+  "license": "MIT"
+}
