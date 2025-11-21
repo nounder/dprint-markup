@@ -9,5 +9,4 @@ VERSION=0.24.0
 wget https://plugins.dprint.dev/g-plane/markup_fmt-v$VERSION.wasm -O plugin.wasm
 
 # update package.json version 
-# ...
 ```
