@@ -3,13 +3,15 @@
 Packaged Pig Fang's [markup_fmt](https://github.com/g-plane/markup_fmt) to be distributed via node package manager,
 similar to `@dprint/*` npm packages.
 
+It formats HTML, Vue, Svelte, Astro, Angular, Jinja, Twig, Nunjucks, Vento, Mustache and XML.
+
 ## Configuration
 
-Put config in your `dprint.json` file under the `"markup"` key.
+Put config under `"markup"` key in your `dprint.json`.
 
-Taken from [config.rs](https://github.com/g-plane/markup_fmt/blob/main/dprint_plugin/src/config.rs).
+Sourced from [config.rs](https://github.com/g-plane/markup_fmt/blob/main/dprint_plugin/src/config.rs).
 
-### Layout Options
+### Layout
 
 - `printWidth` (default: `80`) - Lines should stay under this width limit, though very long single words may exceed it.
 - `useTabs` (default: `false`) - Choose between spaces or tabs for indentation.
