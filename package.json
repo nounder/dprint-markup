@@ -1,9 +1,26 @@
 {
- "name": "dprint-markup",
- "version": "0.24.0",
- "exports": {
-   ".": "./index.js",
-   "./plugin.wasm": "./plugin.wasm"
+  "name": "dprint-markup",
+  "version": "0.24.0",
+  "exports": {
+    ".": "./index.js",
+    "./plugin.wasm": "./plugin.wasm"
   },
-  "license": "MIT"
+  "files": [
+    "index.js",
+    "plugin.wasm",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nounder/dprint-markup.git"
+  },
+  "keywords": [
+    "dprint",
+    "formatter",
+    "markup"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
 }
